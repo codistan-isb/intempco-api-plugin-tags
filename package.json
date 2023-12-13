@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      "@reactioncommerce/api-plugin-tags@1.2.2",
+      "/home/shoaibfarooq/intempco/reaction-cli"
+    ]
+  ],
+  "_from": "@reactioncommerce/api-plugin-tags@1.2.2",
+  "_id": "@reactioncommerce/api-plugin-tags@1.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-+fJ/tci0VA5Hd8s81qCbRPwYWdqQXEWGLTWeMdz5IzZ2053auvEUbcRPrR+ZEjmIhyF5QTXw+6SRuYxK/3OjTQ==",
+  "_location": "/@reactioncommerce/api-plugin-tags",
+  "_phantomChildren": {
+    "clone": "2.1.2",
+    "message-box": "0.2.7",
+    "mongo-object": "0.1.4"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@reactioncommerce/api-plugin-tags@1.2.2",
+    "name": "@reactioncommerce/api-plugin-tags",
+    "escapedName": "@reactioncommerce%2fapi-plugin-tags",
+    "scope": "@reactioncommerce",
+    "rawSpec": "1.2.2",
+    "saveSpec": null,
+    "fetchSpec": "1.2.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@reactioncommerce/api-plugin-tags/-/api-plugin-tags-1.2.2.tgz",
+  "_spec": "1.2.2",
+  "_where": "/home/shoaibfarooq/intempco/reaction-cli",
+  "author": {
+    "name": "Reaction Commerce",
+    "email": "engineering@reactioncommerce.com",
+    "url": "https://reactioncommerce.com"
+  },
+  "bugs": {
+    "url": "https://github.com/reactioncommerce/reaction/issues"
+  },
+  "dependencies": {
+    "@reactioncommerce/api-utils": "^1.17.1",
+    "@reactioncommerce/data-factory": "~1.0.1",
+    "@reactioncommerce/db-version-check": "^1.0.0",
+    "@reactioncommerce/file-collections": "^0.9.3",
+    "@reactioncommerce/random": "~1.0.2",
+    "@reactioncommerce/reaction-error": "~1.0.1",
+    "lodash": "~4.17.21",
+    "simpl-schema": "~1.10.2"
+  },
+  "description": "Tags plugin for the Reaction API",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@reactioncommerce/babel-remove-es-create-require": "~1.0.0",
+    "@reactioncommerce/data-factory": "~1.0.1",
+    "babel-plugin-rewire-exports": "^2.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-import-meta": "~1.0.0"
+  },
+  "email": "engineering@reactioncommerce.com",
+  "engines": {
+    "node": ">=14.18.1"
+  },
+  "homepage": "https://github.com/reactioncommerce/reaction",
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "@reactioncommerce/api-plugin-tags",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactioncommerce/reaction.git",
+    "directory": "packages/api-plugin-tags"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:file": "jest --no-cache --watch --coverage=false",
+    "test:watch": "jest --watch"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "url": "https://github.com/reactioncommerce/reaction",
+  "version": "1.2.2"
+}
